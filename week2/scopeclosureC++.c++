@@ -1,12 +1,12 @@
 /* C++ - Scope and Closures (Lambdas)
-Code based on Lei Mao's github [leimao.github.io/blog/CPP-Closure/]
+Code based on Lei Mao's GitHub [leimao.github.io/blog/CPP-Closure/]
 */
 
 #include <iostream>
 #include <functional>
 
 std::function<int(int)>outerFunction(int x){
-    //Lambda express with capture.
+    //Lambda expression with capture.
     return [x](int y) { 
         return x + y;
     };
@@ -19,7 +19,7 @@ int main() {
 
     auto createCounter = [](){
         int count = 0;
-        //changing count to mutable to allow it to be changed and capture by value.
+        //changing count to mutable, allowing it to be modified and captured by value.
         return [=]() mutable {
             return ++count;
         };
