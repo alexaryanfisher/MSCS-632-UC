@@ -1,4 +1,3 @@
-package week2;
 /*Java: Garbage Collection with Corgi Splooting
 Code Based on YouTube Videos and Java Tutorials:
 [https://www.youtube.com/watch?v=A0LK3K4VAqc] |
