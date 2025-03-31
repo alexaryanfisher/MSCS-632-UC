@@ -75,7 +75,7 @@ int main() {
         for (const auto& shift : shifts) {
             vector<string> preferred_employees;
             for (const auto& [name, data] : employees) {
-                if (data.preferences[day] == shift && data.days_worked < 5) {
+                if (data.preferences.at(day) == shift && data.days_worked < 5) {
                     bool already_scheduled = false;
                     for (const auto& shift_schedule : schedule[day]) {
                         if (find(shift_schedule.second.begin(), shift_schedule.second.end(), name) != shift_schedule.second.end()) {
