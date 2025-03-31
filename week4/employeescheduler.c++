@@ -14,9 +14,10 @@ struct Employee {
 };
 
 int main() {
-    vector<string> workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    vector<string> shifts = {"morning", "afternoon", "evening"};
+    vector<string> workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}; // Workdays
+    vector<string> shifts = {"morning", "afternoon", "evening"}; // Shift types
 
+    // List of existing employees.
     map<string, Employee> employees = {
         {"Alice", {{}, 0}},
         {"Bob", {{}, 0}},
@@ -26,9 +27,10 @@ int main() {
         {"Fred", {{}, 0}},
         {"Greg", {{}, 0}},
         {"Henry", {{}, 0}}
-    };
+    }; 
 
-    map<string, map<string, vector<string>>> schedule;
+    //map of schedule to include workdays, shifts
+    map<string, map<string, vector<string>>> schedule; 
     for (const auto& day : workdays) {
         for (const auto& shift : shifts) {
             schedule[day][shift] = {};
@@ -52,9 +54,9 @@ int main() {
         }
     }
 
-    // Get preferences
-    for (auto& [name, data] : employees) {
-        for (const auto& day : workdays) {
+    // Employee preferences
+    for (auto& [name, data]: employees) {
+        for (const auto& day: workdays) {
             string preference;
             cout << "Enter " << name << "'s preferred shift for " << day << " (morning, afternoon, evening, or blank to randomize): ";
             getline(cin, preference);
@@ -62,7 +64,7 @@ int main() {
             if (!preference.empty()) {
                 data.preferences[day] = preference;
             } else {
-                data.preferences[day] = ""; // No preference
+                data.preferences[day] = ""; // No preference for shift.
             }
         }
     }
@@ -71,10 +73,10 @@ int main() {
     random_device rd;
     mt19937 g(rd());
 
-    for (const auto& day : workdays) {
-        for (const auto& shift : shifts) {
+    for (const auto& day: workdays) {
+        for (const auto& shift: shifts) {
             vector<string> preferred_employees;
-            for (const auto& [name, data] : employees) {
+            for (const auto& [name, data]: employees) {
                 if (data.preferences.at(day) == shift && data.days_worked < 5) {
                     bool already_scheduled = false;
                     for (const auto& shift_schedule : schedule[day]) {
@@ -98,10 +100,10 @@ int main() {
                     employees[employee].days_worked++;
                 } else {
                     vector<string> available_employees;
-                    for (const auto& [name, data] : employees) {
+                    for (const auto& [name, data]: employees) {
                         if (data.days_worked < 5) {
                             bool already_scheduled = false;
-                            for (const auto& shift_schedule : schedule[day]) {
+                            for (const auto& shift_schedule: schedule[day]) {
                                 if (find(shift_schedule.second.begin(), shift_schedule.second.end(), name) != shift_schedule.second.end()) {
                                     already_scheduled = true;
                                     break;
@@ -130,7 +132,7 @@ int main() {
             for (const auto& shift : shifts) {
                 while (schedule[day][shift].size() < 2) {
                     vector<string> available_employees;
-                    for (const auto& [name, data] : employees) {
+                    for (const auto& [name, data]: employees) {
                         if (data.days_worked < 5) {
                             bool already_scheduled = false;
                             for (const auto& shift_schedule : schedule[day]) {
@@ -158,7 +160,7 @@ int main() {
 
     // Scheduling Conflicts
     for (const auto& day : workdays) {
-        for (const auto& shift : shifts) {
+        for (const auto& shift: shifts) {
             for (auto it = schedule[day][shift].begin(); it != schedule[day][shift].end();) {
                 string employee = *it;
                 if (!employees[employee].preferences[day].empty() && employees[employee].preferences[day] != shift) {
