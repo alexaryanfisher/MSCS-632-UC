@@ -23,7 +23,7 @@ The deliverables are listed in the order by completion date in descending order 
 |  |   [Memory Management: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/MemoryManagement.c%2B%2B)      | 03/16/2025 | 
 | [Week 4 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week4/README.md) |   [Employee Scheduler: Python](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week4/employeescheduler.py)      | 03/30/2025 |
 |  |   [Employee Scheduler: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week4/employeescheduler.c++)     | 03/30/2025 |
-| [Week 6 Objective]() |   [RideShare Application: Smalltalk]()      | 04/13/2025 |
-|  |   [RideShare Application: C++]()     | 04/13/2025 |
+| [Week 6 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/README.md) |   [RideShare Application: Smalltalk](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/RideShare-Smalltalk.zip)      | 04/13/2025 |
+|  |   [RideShare Application: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/ridesharec%2B%2B.cpp)     | 04/13/2025 |
 
 
