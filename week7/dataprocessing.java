@@ -1,4 +1,4 @@
-// Data Sharing System, Java.
+// Data Processing System, Java.
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
