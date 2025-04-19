@@ -15,7 +15,7 @@ The deliverables are listed in the order by completion date in descending order 
 
 | Objectives |    Deliverables    |  Completion Date  |
 | :----------------- |:--------------:|-----------------:|
-| [Week 2 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/README.md) |   [Scope and Closure: Python](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/scopeclosurePython.py)      | 03/16/2025 |   A   |
+| [Week 2 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/README.md) |   [Scope and Closure: Python](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/scopeclosurePython.py)      | 03/16/2025 |
 |  |   [Scope and Closure: Javascript](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/scopeclosureJavascript.js)      | 03/16/2025 | 
 |  |   [Scope and Closure: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/scopeclosureC%2B%2B.c%2B%2B)      | 03/16/2025 |
 |  |   [Ownership and Borrowing: Rust](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week2/ownership.rs)      | 03/16/2025 |  
@@ -25,5 +25,7 @@ The deliverables are listed in the order by completion date in descending order 
 |  |   [Employee Scheduler: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week4/employeescheduler.c++)     | 03/30/2025 |
 | [Week 6 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/README.md) |   [RideShare Application: Smalltalk](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/RideShare-Smalltalk.zip)      | 04/13/2025 |
 |  |   [RideShare Application: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/ridesharec%2B%2B.cpp)     | 04/13/2025 |
+| [Week 7 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/README.md) |   [Data Processing System - Go](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/dataprocessing.go)      | 04/20/2025 |
+|  |   [Data Processing System - Java](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/dataprocessing.java)     | 04/20/2025 |
 
 
