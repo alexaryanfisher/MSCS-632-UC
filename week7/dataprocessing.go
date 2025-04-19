@@ -1,4 +1,4 @@
-// Data Sharing System, Go.
+// Data Processing System, Go.
 package main
 
 import (
