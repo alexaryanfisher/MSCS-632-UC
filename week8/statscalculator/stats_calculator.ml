@@ -35,9 +35,8 @@ let mode numbers =
   let mode_value = mode numbers in
 
 (* Print results*)
-  Printf.printf "Numbers: \n"
+  Printf.printf "Numbers: %s\n"
     (String.concat "; " (List.map string_of_float numbers));
-  Printf.printf "\n";
   
   if Float.is_nan mean_value then
     Printf.printf "Mean: No numbers provided. Empty list.\n"
