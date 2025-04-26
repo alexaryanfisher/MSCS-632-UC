@@ -1,0 +1,42 @@
+List of Sample Queries for Family Tree
+
+1. Are these two cousins?
+Query: ?- cousin(hayd, jay).
+Expected Output : true.
+
+2. Who is the parent of Will?
+Query: ?- parent(X, will).
+Expected Output : X = rich ; 
+X = thim.
+
+3.Who is the sibling of Ash?
+Query: ?- siblings(ash, X).
+Expected Output : X = lex.
+
+4.Who are the children of Lex?
+Query: ?- children(lex, X).
+Expected Output : X = hayd ;
+X = my ;
+X = syd ;
+X = rj .
+
+5.Who is the grandparent of EJ?
+Query: ?- grandparent(X, ej).
+Expected Output : X = sam ;
+X = kim.
+
+6.Who are the descendants of Rich?
+Query: ?- descendants(rich, X)
+Expected Output : X = will ;
+X = hayd ;
+X = my ;
+X = syd ;
+X = rj .
+
+7.Who is the spouse of Lex?
+Query: ?- spouse(lex, X).
+Expected Output : x = will.
+
+8. Are Rich and Ash married?
+Query: ?- married(rich, ash).
+Expected Output : false.
