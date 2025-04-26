@@ -1,7 +1,7 @@
 List of Sample Queries for Family Tree
 
 1. Are these two cousins?
-Query: ?- cousin(hayd, jay).
+Query: ?- cousins(hayd, jay).
 Expected Output : true.
 
 2. Who is the parent of Will?
