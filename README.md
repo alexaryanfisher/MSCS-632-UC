@@ -27,5 +27,12 @@ The deliverables are listed in the order by completion date in descending order 
 |  |   [RideShare Application: C++](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week6/ridesharec%2B%2B.cpp)     | 04/13/2025 |
 | [Week 7 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/README.md) |   [Data Processing System - Go](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/dataprocessing.go)      | 04/20/2025 |
 |  |   [Data Processing System - Java](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week7/dataprocessing.java)     | 04/20/2025 |
+| [Week 8 Objective](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/README.md) |   [Statistics Calculator - Python](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/statscalculator/stats_calculator.py)      | 04/25/2025 |
+|  |   [Statistics Calculator - C](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/statscalculator/stats_calculator.c)     | 04/25/2025 |
+|  |   [Statistics Calculator - Ocaml](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/statscalculator/stats_calculator.ml)     | 04/25/2025 |
+|  |   [Family Tree - Prolog](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/familytree/fisherfamilytree.pl)     | 04/25/2025 |
+|  |   [Family Tree Sample Queries](https://github.com/alexaryanfisher/MSCS-632-UC/blob/master/week8/familytree/queries.txt)     | 04/25/2025 |
+
+
 
 
