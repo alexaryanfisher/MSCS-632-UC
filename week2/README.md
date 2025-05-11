@@ -13,4 +13,4 @@
 
 ## Objectives:
 - Scope and Closures: Write small programs in Python, Javascript, and C++ to visualize how each handles Scopes and Closures.
-- Memory Management: Write small programs in Rust, Java, and C++ that allocate and free memory dynamically. Highlighting differences beween memory management approachs.
+- Memory Management: Write small programs in Rust, Java, and C++ that allocate and free memory dynamically. Highlighting differences between memory management approaches.
